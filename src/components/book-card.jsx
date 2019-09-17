@@ -2,8 +2,8 @@ import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 
 const BookCard = () => (
-	<Card style={{ width: '18rem' }}>
-		<Card.Img variant='top' src='holder.js/100px180' />
+	<Card bg='light'>
+		<Card.Img variant='top' src='logo.png' />
 		<Card.Body>
 			<Card.Title>Card Title</Card.Title>
 			<Card.Text>
