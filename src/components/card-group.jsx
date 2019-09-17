@@ -5,8 +5,8 @@ export default props => (
 		className='m-5'
 		style={{
 			display: 'grid',
-			gridTemplateColumns: 'repeat(auto-fill, 300px)',
-			gridGap: '10px',
+			gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+			gridGap: '30px',
 			justifyContent: 'center'
 		}}
 	>

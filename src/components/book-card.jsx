@@ -1,16 +1,23 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 
-const BookCard = () => (
+const BookCard = ({ imgSrc, title, author, publisher, link }) => (
 	<Card bg='light'>
-		<Card.Img variant='top' src='logo.png' />
+		<Card.Img
+			variant='top'
+			src={imgSrc}
+			style={{ height: '100%', width: '100%', objectFit: 'contain' }}
+		/>
 		<Card.Body>
-			<Card.Title>Card Title</Card.Title>
+			<Card.Title>{title}</Card.Title>
 			<Card.Text>
-				Some quick example text to build on the card title and make up the bulk
-				of the card's content.
+				{`By: ${author}`}
+				<br />
+				{`Published by: ${publisher}`}
 			</Card.Text>
-			<Button variant='primary'>Go somewhere</Button>
+			<Button variant='success' href={link} target='_blank'>
+				See this book
+			</Button>
 		</Card.Body>
 	</Card>
 );
