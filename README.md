@@ -1,5 +1,7 @@
 # BOOKFINDER
 
+![](https://github.com/guigui64/bookfinder/workflows/Test%20&%20Deploy/badge.svg)
+
 ## Overview
 
 This app was created for the Chingu Voyage 12 pre-work. It uses the [Google Books API](https://developers.google.com/books/) to build a search engine to allow users to search for books.
