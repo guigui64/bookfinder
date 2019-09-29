@@ -1,6 +1,6 @@
 # BOOKFINDER
 
-![](https://github.com/guigui64/bookfinder/workflows/Test%20&%20Deploy/badge.svg)
+![](https://github.com/guigui64/bookfinder/workflows/Build%20&%20Test/badge.svg)
 
 ## Overview
 
