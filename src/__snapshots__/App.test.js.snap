@@ -1,0 +1,1373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Books displays books after a search 1`] = `
+<App>
+  <div
+    id="container"
+  >
+    <Parent>
+      <div
+        id="content"
+      >
+        <nav
+          className="text-center pt-3"
+        >
+          <img
+            alt="logo"
+            src="logo.png"
+            width="10%"
+          />
+          <h2
+            className="text-uppercase mb-3"
+          >
+            Book Finder
+          </h2>
+          <SearchBox
+            setBooks={[Function]}
+            setNoResult={[Function]}
+          >
+            <InputGroup
+              className="mb-3"
+              style={
+                Object {
+                  "padding": "0 20vw",
+                }
+              }
+            >
+              <div
+                className="mb-3 input-group"
+                style={
+                  Object {
+                    "padding": "0 20vw",
+                  }
+                }
+              >
+                <FormControl
+                  aria-describedby="basic-addon2"
+                  aria-label="Book search query"
+                  onChange={[Function]}
+                  onKeyUp={[Function]}
+                  placeholder="Search for books..."
+                  type="search"
+                  value="harry potter"
+                >
+                  <input
+                    aria-describedby="basic-addon2"
+                    aria-label="Book search query"
+                    className="form-control"
+                    onChange={[Function]}
+                    onKeyUp={[Function]}
+                    placeholder="Search for books..."
+                    type="search"
+                    value="harry potter"
+                  />
+                </FormControl>
+                <InputGroupAppend>
+                  <div
+                    className="input-group-append"
+                  >
+                    <Button
+                      active={false}
+                      disabled={false}
+                      onClick={[Function]}
+                      type="button"
+                      variant="info"
+                    >
+                      <button
+                        className="btn btn-info"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Search
+                      </button>
+                    </Button>
+                  </div>
+                </InputGroupAppend>
+              </div>
+            </InputGroup>
+          </SearchBox>
+        </nav>
+        <_default>
+          <div
+            className="m-5"
+            style={
+              Object {
+                "display": "grid",
+                "gridGap": "30px",
+                "gridTemplateColumns": "repeat(auto-fill, minmax(200px, 1fr))",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <BookCard
+              author="author-0"
+              imgSrc="thumbnail-0"
+              key="0"
+              publisher="publisher-0"
+              title="title-0"
+            >
+              <Card
+                bg="light"
+                body={false}
+              >
+                <div
+                  className="card bg-light"
+                >
+                  <CardImg
+                    src="thumbnail-0"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "objectFit": "contain",
+                        "width": "100%",
+                      }
+                    }
+                    variant="top"
+                  >
+                    <img
+                      className="card-img-top"
+                      src="thumbnail-0"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "objectFit": "contain",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </CardImg>
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            title-0
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          By: author-0
+                          <br />
+                          Published by: publisher-0
+                        </p>
+                      </CardText>
+                      <Button
+                        active={false}
+                        disabled={false}
+                        target="_blank"
+                        type="button"
+                        variant="success"
+                      >
+                        <button
+                          className="btn btn-success"
+                          disabled={false}
+                          target="_blank"
+                          type="button"
+                        >
+                          See this book
+                        </button>
+                      </Button>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+            </BookCard>
+            <BookCard
+              author="author-1"
+              imgSrc="thumbnail-1"
+              key="1"
+              publisher="publisher-1"
+              title="title-1"
+            >
+              <Card
+                bg="light"
+                body={false}
+              >
+                <div
+                  className="card bg-light"
+                >
+                  <CardImg
+                    src="thumbnail-1"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "objectFit": "contain",
+                        "width": "100%",
+                      }
+                    }
+                    variant="top"
+                  >
+                    <img
+                      className="card-img-top"
+                      src="thumbnail-1"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "objectFit": "contain",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </CardImg>
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            title-1
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          By: author-1
+                          <br />
+                          Published by: publisher-1
+                        </p>
+                      </CardText>
+                      <Button
+                        active={false}
+                        disabled={false}
+                        target="_blank"
+                        type="button"
+                        variant="success"
+                      >
+                        <button
+                          className="btn btn-success"
+                          disabled={false}
+                          target="_blank"
+                          type="button"
+                        >
+                          See this book
+                        </button>
+                      </Button>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+            </BookCard>
+            <BookCard
+              author="author-2"
+              imgSrc="thumbnail-2"
+              key="2"
+              publisher="publisher-2"
+              title="title-2"
+            >
+              <Card
+                bg="light"
+                body={false}
+              >
+                <div
+                  className="card bg-light"
+                >
+                  <CardImg
+                    src="thumbnail-2"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "objectFit": "contain",
+                        "width": "100%",
+                      }
+                    }
+                    variant="top"
+                  >
+                    <img
+                      className="card-img-top"
+                      src="thumbnail-2"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "objectFit": "contain",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </CardImg>
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            title-2
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          By: author-2
+                          <br />
+                          Published by: publisher-2
+                        </p>
+                      </CardText>
+                      <Button
+                        active={false}
+                        disabled={false}
+                        target="_blank"
+                        type="button"
+                        variant="success"
+                      >
+                        <button
+                          className="btn btn-success"
+                          disabled={false}
+                          target="_blank"
+                          type="button"
+                        >
+                          See this book
+                        </button>
+                      </Button>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+            </BookCard>
+            <BookCard
+              author="author-3"
+              imgSrc="thumbnail-3"
+              key="3"
+              publisher="publisher-3"
+              title="title-3"
+            >
+              <Card
+                bg="light"
+                body={false}
+              >
+                <div
+                  className="card bg-light"
+                >
+                  <CardImg
+                    src="thumbnail-3"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "objectFit": "contain",
+                        "width": "100%",
+                      }
+                    }
+                    variant="top"
+                  >
+                    <img
+                      className="card-img-top"
+                      src="thumbnail-3"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "objectFit": "contain",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </CardImg>
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            title-3
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          By: author-3
+                          <br />
+                          Published by: publisher-3
+                        </p>
+                      </CardText>
+                      <Button
+                        active={false}
+                        disabled={false}
+                        target="_blank"
+                        type="button"
+                        variant="success"
+                      >
+                        <button
+                          className="btn btn-success"
+                          disabled={false}
+                          target="_blank"
+                          type="button"
+                        >
+                          See this book
+                        </button>
+                      </Button>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+            </BookCard>
+            <BookCard
+              author="author-4"
+              imgSrc="thumbnail-4"
+              key="4"
+              publisher="publisher-4"
+              title="title-4"
+            >
+              <Card
+                bg="light"
+                body={false}
+              >
+                <div
+                  className="card bg-light"
+                >
+                  <CardImg
+                    src="thumbnail-4"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "objectFit": "contain",
+                        "width": "100%",
+                      }
+                    }
+                    variant="top"
+                  >
+                    <img
+                      className="card-img-top"
+                      src="thumbnail-4"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "objectFit": "contain",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </CardImg>
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            title-4
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          By: author-4
+                          <br />
+                          Published by: publisher-4
+                        </p>
+                      </CardText>
+                      <Button
+                        active={false}
+                        disabled={false}
+                        target="_blank"
+                        type="button"
+                        variant="success"
+                      >
+                        <button
+                          className="btn btn-success"
+                          disabled={false}
+                          target="_blank"
+                          type="button"
+                        >
+                          See this book
+                        </button>
+                      </Button>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+            </BookCard>
+            <BookCard
+              author="author-5"
+              imgSrc="thumbnail-5"
+              key="5"
+              publisher="publisher-5"
+              title="title-5"
+            >
+              <Card
+                bg="light"
+                body={false}
+              >
+                <div
+                  className="card bg-light"
+                >
+                  <CardImg
+                    src="thumbnail-5"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "objectFit": "contain",
+                        "width": "100%",
+                      }
+                    }
+                    variant="top"
+                  >
+                    <img
+                      className="card-img-top"
+                      src="thumbnail-5"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "objectFit": "contain",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </CardImg>
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            title-5
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          By: author-5
+                          <br />
+                          Published by: publisher-5
+                        </p>
+                      </CardText>
+                      <Button
+                        active={false}
+                        disabled={false}
+                        target="_blank"
+                        type="button"
+                        variant="success"
+                      >
+                        <button
+                          className="btn btn-success"
+                          disabled={false}
+                          target="_blank"
+                          type="button"
+                        >
+                          See this book
+                        </button>
+                      </Button>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+            </BookCard>
+            <BookCard
+              author="author-6"
+              imgSrc="thumbnail-6"
+              key="6"
+              publisher="publisher-6"
+              title="title-6"
+            >
+              <Card
+                bg="light"
+                body={false}
+              >
+                <div
+                  className="card bg-light"
+                >
+                  <CardImg
+                    src="thumbnail-6"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "objectFit": "contain",
+                        "width": "100%",
+                      }
+                    }
+                    variant="top"
+                  >
+                    <img
+                      className="card-img-top"
+                      src="thumbnail-6"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "objectFit": "contain",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </CardImg>
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            title-6
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          By: author-6
+                          <br />
+                          Published by: publisher-6
+                        </p>
+                      </CardText>
+                      <Button
+                        active={false}
+                        disabled={false}
+                        target="_blank"
+                        type="button"
+                        variant="success"
+                      >
+                        <button
+                          className="btn btn-success"
+                          disabled={false}
+                          target="_blank"
+                          type="button"
+                        >
+                          See this book
+                        </button>
+                      </Button>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+            </BookCard>
+            <BookCard
+              author="author-7"
+              imgSrc="thumbnail-7"
+              key="7"
+              publisher="publisher-7"
+              title="title-7"
+            >
+              <Card
+                bg="light"
+                body={false}
+              >
+                <div
+                  className="card bg-light"
+                >
+                  <CardImg
+                    src="thumbnail-7"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "objectFit": "contain",
+                        "width": "100%",
+                      }
+                    }
+                    variant="top"
+                  >
+                    <img
+                      className="card-img-top"
+                      src="thumbnail-7"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "objectFit": "contain",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </CardImg>
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            title-7
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          By: author-7
+                          <br />
+                          Published by: publisher-7
+                        </p>
+                      </CardText>
+                      <Button
+                        active={false}
+                        disabled={false}
+                        target="_blank"
+                        type="button"
+                        variant="success"
+                      >
+                        <button
+                          className="btn btn-success"
+                          disabled={false}
+                          target="_blank"
+                          type="button"
+                        >
+                          See this book
+                        </button>
+                      </Button>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+            </BookCard>
+            <BookCard
+              author="author-8"
+              imgSrc="thumbnail-8"
+              key="8"
+              publisher="publisher-8"
+              title="title-8"
+            >
+              <Card
+                bg="light"
+                body={false}
+              >
+                <div
+                  className="card bg-light"
+                >
+                  <CardImg
+                    src="thumbnail-8"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "objectFit": "contain",
+                        "width": "100%",
+                      }
+                    }
+                    variant="top"
+                  >
+                    <img
+                      className="card-img-top"
+                      src="thumbnail-8"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "objectFit": "contain",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </CardImg>
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            title-8
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          By: author-8
+                          <br />
+                          Published by: publisher-8
+                        </p>
+                      </CardText>
+                      <Button
+                        active={false}
+                        disabled={false}
+                        target="_blank"
+                        type="button"
+                        variant="success"
+                      >
+                        <button
+                          className="btn btn-success"
+                          disabled={false}
+                          target="_blank"
+                          type="button"
+                        >
+                          See this book
+                        </button>
+                      </Button>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+            </BookCard>
+            <BookCard
+              author="author-9"
+              imgSrc="thumbnail-9"
+              key="9"
+              publisher="publisher-9"
+              title="title-9"
+            >
+              <Card
+                bg="light"
+                body={false}
+              >
+                <div
+                  className="card bg-light"
+                >
+                  <CardImg
+                    src="thumbnail-9"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "objectFit": "contain",
+                        "width": "100%",
+                      }
+                    }
+                    variant="top"
+                  >
+                    <img
+                      className="card-img-top"
+                      src="thumbnail-9"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "objectFit": "contain",
+                          "width": "100%",
+                        }
+                      }
+                    />
+                  </CardImg>
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            title-9
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          By: author-9
+                          <br />
+                          Published by: publisher-9
+                        </p>
+                      </CardText>
+                      <Button
+                        active={false}
+                        disabled={false}
+                        target="_blank"
+                        type="button"
+                        variant="success"
+                      >
+                        <button
+                          className="btn btn-success"
+                          disabled={false}
+                          target="_blank"
+                          type="button"
+                        >
+                          See this book
+                        </button>
+                      </Button>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+            </BookCard>
+          </div>
+        </_default>
+      </div>
+    </Parent>
+    <footer>
+      <div
+        className="text-center"
+      >
+        © 2019 – Guillaume Comte – All rights reserved – Find me on github
+         
+        <a
+          href="https://github.com/guigui64"
+        >
+          @guigui64
+        </a>
+         – Icons made by
+         
+        <a
+          href="https://www.flaticon.com/authors/freepik"
+          title="Freepik"
+        >
+          Freepik
+        </a>
+         
+        from
+         
+        <a
+          href="https://www.flaticon.com/"
+          title="Flaticon"
+        >
+          www.flaticon.com
+        </a>
+      </div>
+    </footer>
+    <GithubCorner
+      ariaLabel="Open GitHub project"
+      bannerColor="#151513"
+      direction="right"
+      href="https://github.com/guigui64/bookfinder"
+      octoColor="#fff"
+      size={80}
+    >
+      <a
+        aria-label="Open GitHub project"
+        className="github-corner"
+        href="https://github.com/guigui64/bookfinder"
+      >
+        <svg
+          height={80}
+          style={
+            Object {
+              "fill": "#fff",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          viewBox="0 0 250 250"
+          width={80}
+        >
+          <path
+            className="octo-banner"
+            d="M0 0l115 115h15l12 27 108 108V0z"
+            fill="#151513"
+          />
+          <path
+            className="octo-arm"
+            d="M128 109c-15-9-9-19-9-19 3-7 2-11 2-11-1-7 3-2 3-2 4 5 2 11 2 11-3 10 5 15 9 16"
+            style={
+              Object {
+                "WebkitTransformOrigin": "130px 106px",
+                "transformOrigin": "130px 106px",
+              }
+            }
+          />
+          <path
+            className="octo-body"
+            d="M115 115s4 2 5 0l14-14c3-2 6-3 8-3-8-11-15-24 2-41 5-5 10-7 16-7 1-2 3-7 12-11 0 0 5 3 7 16 4 2 8 5 12 9s7 8 9 12c14 3 17 7 17 7-4 8-9 11-11 11 0 6-2 11-7 16-16 16-30 10-41 2 0 3-1 7-5 11l-12 11c-1 1 1 5 1 5z"
+          />
+        </svg>
+      </a>
+    </GithubCorner>
+  </div>
+</App>
+`;
+
+exports[`Books displays no book at first 1`] = `
+<App>
+  <div
+    id="container"
+  >
+    <Parent>
+      <div
+        id="content"
+      >
+        <nav
+          className="text-center pt-3"
+        >
+          <img
+            alt="logo"
+            src="logo.png"
+            width="10%"
+          />
+          <h2
+            className="text-uppercase mb-3"
+          >
+            Book Finder
+          </h2>
+          <SearchBox
+            setBooks={[Function]}
+            setNoResult={[Function]}
+          >
+            <InputGroup
+              className="mb-3"
+              style={
+                Object {
+                  "padding": "0 20vw",
+                }
+              }
+            >
+              <div
+                className="mb-3 input-group"
+                style={
+                  Object {
+                    "padding": "0 20vw",
+                  }
+                }
+              >
+                <FormControl
+                  aria-describedby="basic-addon2"
+                  aria-label="Book search query"
+                  onChange={[Function]}
+                  onKeyUp={[Function]}
+                  placeholder="Search for books..."
+                  type="search"
+                  value=""
+                >
+                  <input
+                    aria-describedby="basic-addon2"
+                    aria-label="Book search query"
+                    className="form-control"
+                    onChange={[Function]}
+                    onKeyUp={[Function]}
+                    placeholder="Search for books..."
+                    type="search"
+                    value=""
+                  />
+                </FormControl>
+                <InputGroupAppend>
+                  <div
+                    className="input-group-append"
+                  >
+                    <Button
+                      active={false}
+                      disabled={true}
+                      onClick={[Function]}
+                      type="button"
+                      variant="info"
+                    >
+                      <button
+                        className="btn btn-info"
+                        disabled={true}
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Search
+                      </button>
+                    </Button>
+                  </div>
+                </InputGroupAppend>
+              </div>
+            </InputGroup>
+          </SearchBox>
+        </nav>
+        <_default>
+          <div
+            className="m-5"
+            style={
+              Object {
+                "display": "grid",
+                "gridGap": "30px",
+                "gridTemplateColumns": "repeat(auto-fill, minmax(200px, 1fr))",
+                "justifyContent": "center",
+              }
+            }
+          />
+        </_default>
+      </div>
+    </Parent>
+    <footer>
+      <div
+        className="text-center"
+      >
+        © 2019 – Guillaume Comte – All rights reserved – Find me on github
+         
+        <a
+          href="https://github.com/guigui64"
+        >
+          @guigui64
+        </a>
+         – Icons made by
+         
+        <a
+          href="https://www.flaticon.com/authors/freepik"
+          title="Freepik"
+        >
+          Freepik
+        </a>
+         
+        from
+         
+        <a
+          href="https://www.flaticon.com/"
+          title="Flaticon"
+        >
+          www.flaticon.com
+        </a>
+      </div>
+    </footer>
+    <GithubCorner
+      ariaLabel="Open GitHub project"
+      bannerColor="#151513"
+      direction="right"
+      href="https://github.com/guigui64/bookfinder"
+      octoColor="#fff"
+      size={80}
+    >
+      <a
+        aria-label="Open GitHub project"
+        className="github-corner"
+        href="https://github.com/guigui64/bookfinder"
+      >
+        <svg
+          height={80}
+          style={
+            Object {
+              "fill": "#fff",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          viewBox="0 0 250 250"
+          width={80}
+        >
+          <path
+            className="octo-banner"
+            d="M0 0l115 115h15l12 27 108 108V0z"
+            fill="#151513"
+          />
+          <path
+            className="octo-arm"
+            d="M128 109c-15-9-9-19-9-19 3-7 2-11 2-11-1-7 3-2 3-2 4 5 2 11 2 11-3 10 5 15 9 16"
+            style={
+              Object {
+                "WebkitTransformOrigin": "130px 106px",
+                "transformOrigin": "130px 106px",
+              }
+            }
+          />
+          <path
+            className="octo-body"
+            d="M115 115s4 2 5 0l14-14c3-2 6-3 8-3-8-11-15-24 2-41 5-5 10-7 16-7 1-2 3-7 12-11 0 0 5 3 7 16 4 2 8 5 12 9s7 8 9 12c14 3 17 7 17 7-4 8-9 11-11 11 0 6-2 11-7 16-16 16-30 10-41 2 0 3-1 7-5 11l-12 11c-1 1 1 5 1 5z"
+          />
+        </svg>
+      </a>
+    </GithubCorner>
+  </div>
+</App>
+`;
+
+exports[`Books no result found 1`] = `
+<App>
+  <div
+    id="container"
+  >
+    <Parent>
+      <div
+        id="content"
+      >
+        <nav
+          className="text-center pt-3"
+        >
+          <img
+            alt="logo"
+            src="logo.png"
+            width="10%"
+          />
+          <h2
+            className="text-uppercase mb-3"
+          >
+            Book Finder
+          </h2>
+          <SearchBox
+            setBooks={[Function]}
+            setNoResult={[Function]}
+          >
+            <InputGroup
+              className="mb-3"
+              style={
+                Object {
+                  "padding": "0 20vw",
+                }
+              }
+            >
+              <div
+                className="mb-3 input-group"
+                style={
+                  Object {
+                    "padding": "0 20vw",
+                  }
+                }
+              >
+                <FormControl
+                  aria-describedby="basic-addon2"
+                  aria-label="Book search query"
+                  onChange={[Function]}
+                  onKeyUp={[Function]}
+                  placeholder="Search for books..."
+                  type="search"
+                  value="harry potter"
+                >
+                  <input
+                    aria-describedby="basic-addon2"
+                    aria-label="Book search query"
+                    className="form-control"
+                    onChange={[Function]}
+                    onKeyUp={[Function]}
+                    placeholder="Search for books..."
+                    type="search"
+                    value="harry potter"
+                  />
+                </FormControl>
+                <InputGroupAppend>
+                  <div
+                    className="input-group-append"
+                  >
+                    <Button
+                      active={false}
+                      disabled={false}
+                      onClick={[Function]}
+                      type="button"
+                      variant="info"
+                    >
+                      <button
+                        className="btn btn-info"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Search
+                      </button>
+                    </Button>
+                  </div>
+                </InputGroupAppend>
+              </div>
+            </InputGroup>
+          </SearchBox>
+        </nav>
+        <p
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          Sorry, no result. Try another search.
+        </p>
+      </div>
+    </Parent>
+    <footer>
+      <div
+        className="text-center"
+      >
+        © 2019 – Guillaume Comte – All rights reserved – Find me on github
+         
+        <a
+          href="https://github.com/guigui64"
+        >
+          @guigui64
+        </a>
+         – Icons made by
+         
+        <a
+          href="https://www.flaticon.com/authors/freepik"
+          title="Freepik"
+        >
+          Freepik
+        </a>
+         
+        from
+         
+        <a
+          href="https://www.flaticon.com/"
+          title="Flaticon"
+        >
+          www.flaticon.com
+        </a>
+      </div>
+    </footer>
+    <GithubCorner
+      ariaLabel="Open GitHub project"
+      bannerColor="#151513"
+      direction="right"
+      href="https://github.com/guigui64/bookfinder"
+      octoColor="#fff"
+      size={80}
+    >
+      <a
+        aria-label="Open GitHub project"
+        className="github-corner"
+        href="https://github.com/guigui64/bookfinder"
+      >
+        <svg
+          height={80}
+          style={
+            Object {
+              "fill": "#fff",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          viewBox="0 0 250 250"
+          width={80}
+        >
+          <path
+            className="octo-banner"
+            d="M0 0l115 115h15l12 27 108 108V0z"
+            fill="#151513"
+          />
+          <path
+            className="octo-arm"
+            d="M128 109c-15-9-9-19-9-19 3-7 2-11 2-11-1-7 3-2 3-2 4 5 2 11 2 11-3 10 5 15 9 16"
+            style={
+              Object {
+                "WebkitTransformOrigin": "130px 106px",
+                "transformOrigin": "130px 106px",
+              }
+            }
+          />
+          <path
+            className="octo-body"
+            d="M115 115s4 2 5 0l14-14c3-2 6-3 8-3-8-11-15-24 2-41 5-5 10-7 16-7 1-2 3-7 12-11 0 0 5 3 7 16 4 2 8 5 12 9s7 8 9 12c14 3 17 7 17 7-4 8-9 11-11 11 0 6-2 11-7 16-16 16-30 10-41 2 0 3-1 7-5 11l-12 11c-1 1 1 5 1 5z"
+          />
+        </svg>
+      </a>
+    </GithubCorner>
+  </div>
+</App>
+`;

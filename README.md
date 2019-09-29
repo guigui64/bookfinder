@@ -32,6 +32,6 @@ The main features of this app are:
 
 - [ ] Responsive font sizes
 - [ ] Try React Rainbow Components instead of Bootstrap
-- [ ] Implement tests
+- [x] Implement tests
 - [ ] Bonus tasks from Chingu
 
